@@ -13,6 +13,7 @@ html{
 header{
     background-color: #ffffff;
     height: 90px;
+    /* no es necesario! */
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,6 +59,7 @@ li {
 /* SECCIÓN HOLA*/
 .hola {
     background-color: whitesmoke;
+    /* no es necesario! */
     width: 100%;
     height: 700px;
     display: flex;
@@ -77,7 +79,9 @@ li {
     }
     /*div contenedor del texto de presentación*/
         .ppal1 {
+            /* no es necesario! */
             width: 100%;
+            /* flex no se debe utilizar sin display: flex antes */
             flex-direction: column;
             }
 
@@ -114,6 +118,7 @@ li {
         
         /*div contenedor de la imagen principal // dentro de principal*/
         .contenedor-img-principal {
+            /* no es necesario! */
             width: 100%;
             display: flex;
         }
@@ -129,7 +134,9 @@ li {
     justify-content: center;
     align-items: center;
     background-color:#fcebf3;
+    /* no es necesario! */
     width: 100%;
+    /* preferimos que el height este dado por el contenido, no fijo */
     height: 1000px;
        
 }
@@ -198,6 +205,7 @@ li {
 /*SECCIÓN FRASE*/
 .frase{
     background-color:  #ca145f;
+    /* no es necesario! */
     width: 100%;
     height: 600px;
     display: flex;
@@ -234,7 +242,9 @@ li {
     justify-content: center;
     align-items: center;
     background-color:#fcebf3;
+    /* no es necesario! */
     width: 100%;
+    /* no es buena practica usar height */
     height: 1400px;
 }
     .contenido-proyectos{
@@ -308,6 +318,7 @@ li {
 
 footer {
     background-color: #ca145f;
+    /* no es necesario! */
     width: 100%;
     height: 300px;
     display: flex;
