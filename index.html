@@ -14,17 +14,27 @@
 
 <body>
 <!--HEADER-->
-    <header>
-        <nav>
-            <ul class="menu">
+    <header id="header">
+        <nav id="menu" >
+            <ul class="menu" >
                 <li><a class="menunav" href="#hola">HOLA</a></li>
                 <li><a class="menunav" href="#conocimientos">CONOCIMIENTOS</a></li>
                 <li><a class="menunav" href="#proyectos">PROYECTOS</a></li>
                 <li><a class="boton1" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
-        <!--div ícono de hamburguesa-->
-        <div class="i"><i class="fas fa-bars"></i></div>
+        <!--boton ícono de hamburguesa-->
+        
+        <button class="i" id="menu-hamburguesa"><i class="fas fa-bars"></i></button>
+       
+        <div class="menu-responsive " id="menu-responsive">
+            <ul class="menu-desplegable">
+                <li><a class="menunav" href="#hola">HOLA</a></li>
+                <li><a class="menunav" href="#conocimientos">CONOCIMIENTOS</a></li>
+                <li><a class="menunav" href="#proyectos">PROYECTOS</a></li>
+                <li><a class="menunav" href="#contacto">CONTACTO</a></li>
+            </ul>
+        </div>
     </header>
 
 <!--SECCIÓN HOLA-->
@@ -166,6 +176,7 @@
         </div>
     </footer>
 
+    <script src="index.js"></script>
 
 </body>
 

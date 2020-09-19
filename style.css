@@ -55,6 +55,10 @@ li {
     display:none;
 }
 
+.menu-desplegable {
+    display: none;
+}
+
 /* SECCIÓN HOLA*/
 .hola {
     background-color: whitesmoke;
@@ -518,18 +522,50 @@ footer {
 header {
     display:flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
+
 
 nav {
     display:none;
 }
 
-.i {
+#menu-hamburguesa {
     display: flex;
+    justify-content: center;
     margin: 40px;
     color: black;
+    border: none;
+    font-size: 30px;
 }
+.container-responsive{
+    position: relative;
+}
+
+.menu-responsive{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    transition: 2s;
+    transform: translateY(112px);
+}
+.menunav {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desplegable {
+    list-style: none;
+    display:block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+.hidden {
+    top: -112px;
+}
+
 
 /*MEDIA SECCION HOLA*/
 .principal{
@@ -674,4 +710,3 @@ footer{
     
 }
 
-}
