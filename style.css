@@ -563,7 +563,7 @@ nav {
 
 
 .hidden {
-    top: -112px;
+    display: none;
 }
 
 
