@@ -523,6 +523,7 @@ header {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
@@ -540,12 +541,15 @@ header {
 }
 .container-responsive{
     position: relative;
+    height: auto;
 }
 
 .menu-responsive{
     background-color: #ffffff;
     width: 100%;
     position: absolute;
+    transition: 2s;
+    transform: translateY(50px);   
     
 }
 .menunav {
@@ -562,7 +566,7 @@ header {
 
 
 .hidden {
-    top: -116px;
+    transform: translateY(-206px);
 }
 
 
