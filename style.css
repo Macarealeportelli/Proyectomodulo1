@@ -543,11 +543,10 @@ nav {
 }
 
 .menu-responsive{
-    position: absolute;
     background-color: #ffffff;
     width: 100%;
-    transition: 2s;
-    transform: translateY(112px);
+    position: absolute;
+    text-outline: -116px;
 }
 .menunav {
     text-decoration: none;
