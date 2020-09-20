@@ -4,12 +4,12 @@ const links = document.querySelectorAll(".menu-responsive li")
 
 hamburguesa.onclick = () =>{
   
-    menu.classList.toggle(`hidden`)
+    menu.classList.toggle(`mostrar-menu`)
 }
 
 
 for (let link of links){
     link.onclick = () => {
-        menu.classList.add(`hidden`)
+        menu.classList.add(`mostrar-menu`)
     }
 }
