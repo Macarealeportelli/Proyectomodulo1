@@ -526,7 +526,7 @@ header {
 }
 
 
-nav {
+#menu {
     display:none;
 }
 
@@ -546,7 +546,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     position: absolute;
-    text-outline: -116px;
+    
 }
 .menunav {
     text-decoration: none;
@@ -562,7 +562,7 @@ nav {
 
 
 .hidden {
-    display: none;
+    top: -116px;
 }
 
 
